@@ -1,0 +1,46 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-------------------------------------
+        image gallary
+--------------------------------------*/
+
+.gallary {
+    padding:  50px 0 100px;
+    border:  1px solid #e5ebf2;
+}
+
+.gallary-content {padding-top: 100px;}
+
+
+.isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.isotope .item {
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 30px;
+}
+
+.isotope .item img{
+    width:400px;
+    height:200px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.isotope .item:hover  img{
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
